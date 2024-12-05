@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abstract_dots"
+    android:orientation="vertical"
+    tools:context=".CurrencyConverter" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="BRL"
+        android:gravity="center"
+        android:hint="Insira um valor em BRL"
+        android:layout_margin="20dp"
+        android:id="@+id/edit_brl" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USD"
+            android:layout_marginHorizontal="16dp"
+            android:id="@+id/button_usd" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EUR"
+            android:layout_marginHorizontal="16dp"
+            android:id="@+id/button_eur" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ARS"
+            android:layout_marginHorizontal="16dp"
+            android:id="@+id/button_ars" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:gravity="center"
+        android:textSize="50sp"
+        android:id="@+id/text_result" />
+
+</LinearLayout>

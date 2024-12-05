@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="arrow">Seta</string>
+    <string name="projeto_1">Conversor de Moeda</string>
+    <string name="projeto_2">Celcius - Fahrenheit</string>
+    <string name="projeto_3">Calculadora Cientifica</string>
+    <string name="acess_project">Acessar projeto</string>
+</resources>
